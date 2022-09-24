@@ -5,7 +5,7 @@ console.log('Aula sobre functions')
 console.log('Paciência e persistência.')
 console.log('Revisão é mãe do aprendizado!') */
 
-const phases= [
+const phrases= [
     'Comece onde você está, use o que você tem e faça o que você pode.',
     'Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.',
     'Não importa que você vá devagar, contanto que você não pare.',
@@ -17,7 +17,7 @@ const phases= [
     'A vida é 10% o que acontece a você e 90% como você reage a isso.',
 ]
 
-const authorPhases = [
+const authorPhrases = [
     'Arthur Ashe',
     'Roberto Shinyashiki',
     'Confúcio',
@@ -29,8 +29,8 @@ const authorPhases = [
     'Charles Swindoll'
 ]
 
-function generatePhaseMotivation() {
-    const randomPhase = Math.floor(Math.random() * phases.length)
-    document.getElementById('changePhases').innerHTML = phases[randomPhase]
-    document.getElementById('authorPhases').innerHTML = authorPhases[randomPhase]
+function generatePhraseMotivation() {
+    const randomPhrase = Math.floor(Math.random() * phases.length)
+    document.getElementById('changePhrases').innerHTML = phases[randomPhrase]
+    document.getElementById('authorPhrases').innerHTML = authorPhases[randomPhrase]
 }
