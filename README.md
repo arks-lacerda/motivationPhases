@@ -1,4 +1,4 @@
-# Motivation Phases
+# Motivation Phrases
 ## I'm just studying
 <div style='display: flex; gap: 0.5rem; margin-top: 2rem'><img width='20px' src='https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png' width='60' title='HTML5'/> HTML
 </div>
