@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Gerador de Frases</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="topImg" src="./images/icons8.svg" alt="">
+        <img id="bottomImg"src="./images/icons8-motivation-daily-quotes.svg" alt="">
+        <header>
+            <h1 id="changePhases">Muda sua vida!</h1>
+            <p> -- </p>
+            <p id="authorPhases">"Arthur Lacerda"</p>
+        </header>
+        <main>
+            <button onclick={generatePhaseMotivation()}>Motivation</button>
+        </main>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
